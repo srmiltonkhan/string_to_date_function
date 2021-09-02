@@ -1,0 +1,3 @@
+    $date = $row['deadline'];
+    $date_foramt = strtotime($date); 
+    $deadline = date('d-M-Y',$date_foramt);
